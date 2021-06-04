@@ -15,7 +15,7 @@ Synapse allows you to use ML models in SQL queries
 Execute the notebook to create the model.
 <br> You will have to modify the Notebook to specify the location where to save your ONNX model on your Datalake.
 <br>Azure Databricks has been used but it can be executed with another product.
-Notebook is from the following repo:
+<br>Notebook is from the following repo:
 https://github.com/Azure-Samples/Synapse/blob/main/Notebooks/PySpark/tutorial-predict-nyc-taxi-tips-onnx.ipynb
 
 The Hexadecimal conversion has been added
