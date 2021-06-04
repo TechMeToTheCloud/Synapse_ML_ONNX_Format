@@ -1,7 +1,14 @@
 # Synapse_ML_ONNX_Format
 A simple Azure Synapse example ONNX Model conversion based on the NYC Taxi Dataset
 
+Synapse allows you to use ML models in SQL queries
+
 ![image](https://user-images.githubusercontent.com/49620357/120843079-ab24f380-c53b-11eb-901b-77c231b0797a.png)
+
+# Prerequisites:
+* Azure Synapse Analytics Workspace
+  * https://docs.microsoft.com/en-us/azure/synapse-analytics/quickstart-create-workspace
+
 
 # Step 1
 
@@ -17,4 +24,4 @@ The Hexadecimal conversion has been added
 
 * Execute the script Taxi_Model_ONNX_external Storage_Registration_Model.sql
 * Execute the script Prediction_ONNX_Model_NYC_Taxi.sql
-![image](https://user-images.githubusercontent.com/49620357/120843886-a3198380-c53c-11eb-9794-1f757ecc23a0.png)
+![image](https://user-images.githubusercontent.com/49620357/120854209-d6fba580-c54a-11eb-8403-f12cee208d78.png)
