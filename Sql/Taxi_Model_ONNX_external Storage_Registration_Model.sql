@@ -45,7 +45,7 @@ GO
 
 --Insert the model
 INSERT INTO [dbo].[MLModel]
-SELECT Model, 'NYC Taxi Model SparkML'
+SELECT Model, 'NYC Taxi Model Sklearn'
 FROM [dbo].[MLModelExtSparkMLTaxi]
 
 
