@@ -1,3 +1,7 @@
+--As a prerequisites you need a master key and credential setup
+--More information here https://docs.microsoft.com/en-us/sql/t-sql/statements/create-database-scoped-credential-transact-sql?view=sql-server-ver15
+
+
 CREATE EXTERNAL DATA SOURCE ModelStore WITH
 (
 	LOCATION = 'abfss://<Container Name>@<Storage Name>dfs.core.windows.net',
